@@ -1,0 +1,11 @@
+sentence-transformers==2.2.2
+langchain==0.2.12
+flask==3.0.3
+pypdf==4.2.0
+python-dotenv==1.0.1
+pinecone-client[grpc]==3.2.2
+langchain-pinecone==0.1.1
+langchain-community==0.2.11
+langchain-openai==0.1.16
+# omit langchain-experimental because of version conflicts
+-e .
